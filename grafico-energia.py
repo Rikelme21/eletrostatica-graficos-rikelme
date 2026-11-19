@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 
 # Constantes físicas (mesmos valores do relatório em LaTeX)
 k = 8.99e9   # N·m²/C²
-q1 = 0.01    # 1 µC
-q2 = 0.01    # 1 µC
+q1 = 1    # 1 µC
+q2 = 1    # 1 µC
 
 # Distâncias de 0,10 m até 1,00 m (passo de 0,01 m)
 distancias = [0.10 + i * 0.01 for i in range(91)]
